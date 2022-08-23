@@ -10,7 +10,7 @@
 
 <h1 align>Task 2: "Selectors"</h1>
 
-**//*[@id="__next"]/form/div/div[1]/h5**
+**scouts_panel_bottom_xpath = "//*[@id='__next']/form/div/div[1]/h5"**
 <ol>
 <li>//*[text()="Scouts Panel"]</li>
 <li>//h5</li>
@@ -18,7 +18,7 @@
 </ol>
 
 
-**//*[@id="__next"]/form/div/div[1]/div[1]**
+**login_field_xpath = "//*[@id="__next"]/form/div/div[1]/div[1]"**
 <ol>
 <li>//*[@id="login"]</li>
 <li>//*[@name="login"]</li>
@@ -26,7 +26,7 @@
 </ol>
 
 
-**//*[@id="password"]**
+**password_input_xpath = "//*[@id="password"]"**
 <ol>
 <li>//*[@name="password"]</li>
 <li>//input[@id="password"]</li>
@@ -34,7 +34,7 @@
 </ol>
 
 
-**//*[@id="__next"]/form/div/div[1]/a**
+**remind_password_link_xpath = "//*[@id="__next"]/form/div/div[1]/a"**
 <ol> 
 <li>//*[text()="Remind password"]</li>
 <li>//*[contains(@class, "MuiTypography-root MuiLink")]</li>
@@ -42,7 +42,7 @@
 </ol>
 
 
-**//*[@id="__next"]/form/div/div[2]/div/div**
+**language_English_select_button_xpath = "//*[@id="__next"]/form/div/div[2]/div/div"**
 <ol> 
 <li>//*[text()="English"]</li>
 <li>//*[@id="__next"]/form/div/div[2]/div/input/preceding-sibling::*</li>
@@ -50,7 +50,7 @@
 
 
 
-**//*[@id="__next"]/form/div/div[2]/div/div**
+**language_Polski_select_button_xpath = "//*[@id="__next"]/form/div/div[2]/div/div"**
 <ol> 
 <li>//*[text()="Polski"]</li>
 <li>//*[@id="__next"]/form/div/div[2]/div/input/preceding-sibling::*</li>
@@ -58,7 +58,7 @@
 
 
 
-**//*[@id="__next"]/form/div/div[2]/button/span[1]**
+**sing_in_label_xpath = "//*[@id="__next"]/form/div/div[2]/button/span[1]"**
 <ol> 
 <li>//*[@class="MuiButton-label"]</li>
 <li>//*[text()="Sign in"]</li>
